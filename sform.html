@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Survey Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='sform.css'>
+    
+<body>
+    <h1> Survey Form</h1>
+
+    <!-- Create Form -->
+    <form id="form">
+
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+
+            <!-- Input Type Text -->
+            <input type="text" id="name" 
+                   placeholder="Enter your name" />
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+
+            <!-- Input Type Email-->
+            <input type="email" id="email" 
+                   placeholder="Enter your email" />
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+
+            <!-- Input Type Text -->
+            <input type="text" id="age" 
+                   placeholder="Enter your age" />
+        </div>
+
+       
+
+        <div class="form-control">
+            <label>
+               Have you ever attended meditation classes?
+            </label>
+
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1" 
+                       name="recommed">Yes
+                  </input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2" 
+                       name="recommed">No
+                  </input>
+            </label>
+            
+        </div>
+
+        <div class="form-control">
+            <label>
+                What are the changes you felt in your daily life?
+            </label>
+            <textarea name="comment" id="comment" 
+                      placeholder="Please share your experience here">
+            </textarea>
+            <!-- Input Type Checkbox -->
+            
+            
+        </div>
+        
+        <div class="form-control">
+            <label for="age" id="label-age">
+               Popular or any meditation centers you recommend?
+            </label>
+
+            <!-- Input Type Text -->
+            <input type="text" id="age" 
+                   placeholder="Enter the name of the center " />
+        </div>
+
+        <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions for the people new in this field.
+            </label>
+
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment" 
+                      placeholder="Enter your comment here">
+            </textarea>
+        </div>
+
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+</html>
